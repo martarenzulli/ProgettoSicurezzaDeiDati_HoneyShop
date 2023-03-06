@@ -3,7 +3,7 @@ App = {
   contracts: {},
 
   init: async function() {
-    // Load alveares.
+    // Carica alveari.
     $.getJSON('../alveare.json', function(data) {
       var alvearesRow = $('#alvearesRow');
       var alveareTemplate = $('#alveareTemplate');

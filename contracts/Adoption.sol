@@ -10,7 +10,7 @@ address[16] public adopters;
 
         return alveareId;
     }
-    // Recupero dell'alveare
+    // Recupero dell'alveare adottato
     function getAdopters() public view returns (address[16] memory) {
         return adopters;
     }

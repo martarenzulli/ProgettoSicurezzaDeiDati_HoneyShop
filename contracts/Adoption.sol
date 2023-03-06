@@ -2,7 +2,7 @@ pragma solidity ^0.5.0;
 
 contract Adoption {
 address[16] public adopters;
-    // Adopting a alveare
+    // Adottare un alveare
     function adopt(uint alveareId) public returns (uint) {
         require(alveareId >= 0 && alveareId <= 15);
 
@@ -10,7 +10,7 @@ address[16] public adopters;
 
         return alveareId;
     }
-    // Retrieving the adopters
+    // Recupero dell'alveare
     function getAdopters() public view returns (address[16] memory) {
         return adopters;
     }
